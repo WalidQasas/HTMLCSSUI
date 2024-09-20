@@ -65,30 +65,30 @@ h2 {
     margin-bottom: 20px;
 }
 
-.user-avatar {
+.user-card__avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 15px;
 }
 
-.user-info {
+.user-card__info {
     flex-grow: 1;
 }
 
-.user-info h3 {
+.user-card__name {
     font-weight: var(--font-weight-bold);
     font-size: 18px;
     color: var(--primary-color);
 }
 
-.user-info p {
+.user-card__role {
     font-size: 14px;
     font-weight: 570;
     color: var(--primary-color);
 }
 
-.user-actions {
+.user-card__actions {
     display: flex;
     gap: 12px;
 }
@@ -101,47 +101,38 @@ h2 {
     align-items: center;
 }
 
-.add-user-btn {
-    background-color: var(--secondary-color);;
-    color: var(--text-bg-color);
-    border: none;
-    padding: var(--button-padding);
+
+.button {
     font-family: var(--font-family);
     font-weight: var(--font-weight-regular);
-    font-size: var(--font-size);
-    border-radius: var(--border-radius);
-    cursor: pointer;
-}
-.remove-btn {
-    background-color: var(--danger-color);
-    color: var(--text-bg-color);
     border: none;
-    padding: var(--button-padding);
-    font-family: var(--font-family);
-    font-weight: var(--font-weight-regular);
     border-radius: var(--border-radius);
     cursor: pointer;
 }
 
-.edit-btn {
+.button--add-user {
     background-color: var(--secondary-color);
-    color: var(--text-bg-color);
-    border: none;
-    font-family: var(--font-family);
-    font-weight: var(--font-weight-regular);
-    padding: var(--button-padding);
+    color: white;
+    padding: 8px 15px;
     border-radius: var(--border-radius);
     cursor: pointer;
 }
 
-.save-btn {
+.button--remove {
+    background-color: var(--danger-color);
+    color: white;
+    padding: var(--button-padding);
+}
+
+.button--edit {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: var(--button-padding);
+}
+
+.button--save {
     background-color: var(--success-color);
     color: var(--primary-color);
-    border: none;
-    font-family: var(--font-family);
-    font-weight: var(--font-weight-bold);
-    padding: var(--button-padding);
-    font-size: var(--font-size);
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 6px 14px;
+    font-size: 16px;
 }
