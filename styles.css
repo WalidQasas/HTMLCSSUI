@@ -54,41 +54,41 @@ h2 {
     color: var(--primary-color);
 }
 
-.user-list{
+.list{
     border-top: 2px solid var(--border-color);
     padding-top: 15px;
 }
 
-.user-card {
+.card {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.user-card__avatar {
+.card__avatar {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 15px;
 }
 
-.user-card__info {
+.card__body {
     flex-grow: 1;
 }
 
-.user-card__name {
+.card__title {
     font-weight: var(--font-weight-bold);
     font-size: 18px;
     color: var(--primary-color);
 }
 
-.user-card__role {
+.card__subtitle {
     font-size: 14px;
     font-weight: 570;
     color: var(--primary-color);
 }
 
-.user-card__actions {
+.card__actions {
     display: flex;
     gap: 12px;
 }
@@ -105,34 +105,29 @@ h2 {
 .button {
     font-family: var(--font-family);
     font-weight: var(--font-weight-regular);
+    color: white;
     border: none;
     border-radius: var(--border-radius);
+    padding: var(--button-padding);
     cursor: pointer;
 }
 
-.button--add-user {
+.button--primary {
     background-color: var(--secondary-color);
-    color: white;
-    padding: 8px 15px;
-    border-radius: var(--border-radius);
-    cursor: pointer;
 }
 
-.button--remove {
+.button--danger {
     background-color: var(--danger-color);
-    color: white;
-    padding: var(--button-padding);
 }
 
-.button--edit {
-    background-color: var(--secondary-color);
-    color: white;
-    padding: var(--button-padding);
-}
-
-.button--save {
+.button--success {
     background-color: var(--success-color);
+}
+
+.button--dark-text{
     color: var(--primary-color);
-    padding: 6px 14px;
+}
+
+.button--m{
     font-size: 16px;
 }
