@@ -1,7 +1,7 @@
 :root {
     --font-family: 'Open Sans', sans-serif;
-    --primary-color: #12193f;
-    --secondary-color: #3a64df;
+    --dark-color: #12193f;
+    --primary-color: #3a64df;
     --danger-color: #d23b31;
     --success-color: #72ce8d;
     --text-bg-color: #FFF;
@@ -51,7 +51,7 @@ body {
 h2 {
     font-size: 32px;
     font-weight: 620;
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .list{
@@ -79,13 +79,13 @@ h2 {
 .card__title {
     font-weight: var(--font-weight-bold);
     font-size: 18px;
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .card__subtitle {
     font-size: 14px;
     font-weight: 570;
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .card__actions {
@@ -113,7 +113,7 @@ h2 {
 }
 
 .button--primary {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .button--danger {
@@ -125,7 +125,7 @@ h2 {
 }
 
 .button--dark-text{
-    color: var(--primary-color);
+    color: var(--dark-color);
 }
 
 .button--m{
