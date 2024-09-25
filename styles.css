@@ -112,7 +112,7 @@ h2 {
     cursor: pointer;
 }
 
-.button .button--m{
+.button.button--m{
     font-size: 16px;
 }
 
