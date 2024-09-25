@@ -112,6 +112,10 @@ h2 {
     cursor: pointer;
 }
 
+.button .button--m{
+    font-size: 16px;
+}
+
 .button--primary {
     background-color: var(--primary-color);
 }
@@ -128,6 +132,3 @@ h2 {
     color: var(--dark-color);
 }
 
-.button--m{
-    font-size: 16px;
-}
